@@ -34,6 +34,7 @@ struct MusicCard: View {
             .frame(maxWidth: .infinity)
             .disabled(viewModel.isChangingPlaylist)
             .focused($isPlaylistPickerFocused)
+            .environment(\.colorScheme, .light)
 
             if viewModel.isChangingPlaylist {
               ProgressView()

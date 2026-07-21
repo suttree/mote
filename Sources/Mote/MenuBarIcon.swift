@@ -15,7 +15,7 @@ enum MenuBarIcon {
   static let statusItemImage: NSImage = {
     let image = (MenuBarIcon.image.copy() as? NSImage) ?? MenuBarIcon.image
     let aspectRatio = image.size.width / image.size.height
-    image.size = NSSize(width: 21 * aspectRatio, height: 21)
+    image.size = NSSize(width: 20 * aspectRatio, height: 20)
     image.isTemplate = true
     return image
   }()
