@@ -13,26 +13,29 @@ struct MoteApp: App {
 }
 
 @MainActor
-final class AppDelegate: NSObject, NSApplicationDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
   private let popover = NSPopover()
   private let settings = AppSettings()
   private lazy var dashboard = DashboardViewModel(
     settings: settings,
     musicService: MusicService(),
     weatherService: WeatherService(),
-    calendarService: CalendarService()
+    calendarService: CalendarService(),
+    smallSeasonsService: SmallSeasonsService()
   )
   private var statusItem: NSStatusItem?
+  private var outsideClickMonitor: Any?
 
   func applicationDidFinishLaunching(_ notification: Notification) {
     NSApp.setActivationPolicy(.accessory)
 
     let content = DashboardView(viewModel: dashboard)
       .environmentObject(settings)
-    popover.contentSize = NSSize(width: 380, height: 600)
+    popover.contentSize = NSSize(width: 380, height: 620)
     popover.contentViewController = MoteHostingController(rootView: content)
     popover.behavior = .transient
     popover.animates = true
+    popover.delegate = self
 
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
     if let button = statusItem.button {
@@ -57,6 +60,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
       of: sender,
       preferredEdge: .minY
     )
+    startOutsideClickMonitor()
 
     DispatchQueue.main.async { [weak self] in
       guard let window = self?.popover.contentViewController?.view.window else {
@@ -65,6 +69,31 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
       window.makeKey()
       self?.dashboard.requestPlaylistFocus()
     }
+  }
+
+  func popoverDidClose(_ notification: Notification) {
+    stopOutsideClickMonitor()
+  }
+
+  func applicationWillTerminate(_ notification: Notification) {
+    stopOutsideClickMonitor()
+  }
+
+  private func startOutsideClickMonitor() {
+    stopOutsideClickMonitor()
+    outsideClickMonitor = NSEvent.addGlobalMonitorForEvents(
+      matching: [.leftMouseDown, .rightMouseDown, .otherMouseDown]
+    ) { [weak self] _ in
+      Task { @MainActor in
+        self?.popover.close()
+      }
+    }
+  }
+
+  private func stopOutsideClickMonitor() {
+    guard let outsideClickMonitor else { return }
+    NSEvent.removeMonitor(outsideClickMonitor)
+    self.outsideClickMonitor = nil
   }
 }
 

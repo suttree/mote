@@ -24,6 +24,7 @@ cp "${BIN_DIR}/mote" "${APP_PATH}/Contents/MacOS/mote"
 cp "${PROJECT_DIR}/Resources/Info.plist" "${APP_PATH}/Contents/Info.plist"
 cp "${PROJECT_DIR}/Resources/MenuBarIcon.png" "${APP_PATH}/Contents/Resources/MenuBarIcon.png"
 cp "${PROJECT_DIR}/Resources/AppIcon.png" "${APP_PATH}/Contents/Resources/AppIcon.png"
+cp "${PROJECT_DIR}/Resources/smallseasons.ics" "${APP_PATH}/Contents/Resources/smallseasons.ics"
 
 xattr -cr "${APP_PATH}"
 codesign \

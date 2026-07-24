@@ -1,0 +1,345 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Small Seasons
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:See https://smallseasons.guide for details.
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190707
+DTEND;VALUE=DATE:20190708
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:74gc1iukto3o5qtq9r82jjt750@google.com
+CREATED:20181211T122348Z
+DESCRIPTION:小暑・Shōsho・Little Heat<br><br>The summer heat begins. Warm winds blow\, lotus' blossom\, and young hawks are learning to fly.<br><br><a href="https://smallseasons.guide" id="ow4207" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113955Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Little Heat
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190421
+DTEND;VALUE=DATE:20190422
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:5qs892eqchuu6otfb4osbln6kj@google.com
+CREATED:20181211T121822Z
+DESCRIPTION:穀雨・Kokū・Rain for Harvests<br><br>Reeds sprout by the rivers and rice seedlings grow in the fields after the last frost has passed. Peonies bloom in the wilderness.<br><br><a href="https://smallseasons.guide" id="ow3188" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113737Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Rain for Harvests
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190506
+DTEND;VALUE=DATE:20190507
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:5k1tbqlt2n012gi1v2b6unhjct@google.com
+CREATED:20181211T121936Z
+DESCRIPTION:立夏・Rikka・Start of Summer<br><br>The songs of summer begin. Frogs start their singing\, and birds chirp in the forests. Worms surface from underground\, bamboo shoots begin to sprout.<br><br><a href="https://smallseasons.guide" id="ow3372" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113809Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Songs of Summer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191023
+DTEND;VALUE=DATE:20191024
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:67nlbm25d3ed27bjqiq1fal9v0@google.com
+CREATED:20181211T123116Z
+DESCRIPTION:霜降・Sōkō・Frost Descends<br><br>The first frosts. Rains disappear as the maple leaves and ivy turn yellow.<br><br><a href="https://smallseasons.guide" id="ow5433" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114207Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Descending Frost
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190404
+DTEND;VALUE=DATE:20190405
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:39at5l1hfhfhtq01g1jdd8bfpm@google.com
+CREATED:20181211T121713Z
+DESCRIPTION:清明・Seimei・Clear and Bright<br><br>Shortly after the equinox\, when the swallows return home and the geese fly north. The first rainbows of the season appear.<br><br><a href="https://smallseasons.guide" id="ow3017" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113721Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Clear and Bright
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190923
+DTEND;VALUE=DATE:20190924
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:5u1hdo1gi0filq8cc8f5aec900@google.com
+CREATED:20181211T122837Z
+DESCRIPTION:秋分・Shūbun・Autumnal Equinox<br><br>Day and night are of equal length. Farmers drain their fields and insects hide underground.<br><br><a href="https://smallseasons.guide" id="ow5095" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114135Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Autumnal Equinox
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191108
+DTEND;VALUE=DATE:20191109
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:4k3euu0mcv1firdfdr02r1gsh6@google.com
+CREATED:20181211T123235Z
+DESCRIPTION:立冬・Ritto・Start of Winter<br><br>When the winter season starts. Land begins to freeze\, rivers and streams shortly to follow.<br><br><a href="https://smallseasons.guide" id="ow5602" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114225Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Winter
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20181208
+DTEND;VALUE=DATE:20181209
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:5knknpaskbi92l6vc0sga6bv3s@google.com
+CREATED:20181211T120456Z
+DESCRIPTION:大雪・Taisetsu・Big Snow<br><br>The cold sets in. Bears are hibernating in their dens\, and the salmon have swam upstream. Nature is quiet.<br><br><a href="https://smallseasons.guide" id="ow1158" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113432Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Start of the Big Snow
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190204
+DTEND;VALUE=DATE:20190205
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:384lso3r36csn3i3km99ep9eok@google.com
+CREATED:20181211T121123Z
+DESCRIPTION:立春・Risshun・Start of Spring<br><br>Fish appear in icy ponds and the bush warblers start singing in the mountains.<br><br><a href="https://smallseasons.guide" id="ow1926" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113537Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Risshun
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190823
+DTEND;VALUE=DATE:20190824
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:2sik0ootlqdd3tqgk96jq1ajj4@google.com
+CREATED:20181211T122627Z
+DESCRIPTION:処暑・Shosho・Lessening Heat<br><br>The heat of summer has been forgotten. The rice has ripened and cotton flowers are in bloom.<br><br><a href="https://smallseasons.guide" id="ow4738" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114056Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Lessening Heat
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190808
+DTEND;VALUE=DATE:20190809
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:4bid97bp2i2p71imh54k506gt9@google.com
+CREATED:20181211T122529Z
+DESCRIPTION:立秋・Risshū・Start of Autumn<br><br>The first signs of autumn can be seen. Cooler winds blow\, and thick fogs roll through the hills in the morning.<br><br><a href="https://smallseasons.guide" id="ow4567" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114038Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Autumn
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191008
+DTEND;VALUE=DATE:20191009
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:7vfl5u59uc2cu227njeti6o8md@google.com
+CREATED:20181211T122952Z
+DESCRIPTION:寒露・Kanro・Cold Dew<br><br>Temperatures begin dropping. The geese return for the winter. Crickets chirp for the last time in the year.<br><br><a href="https://smallseasons.guide" id="ow5264" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114150Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Cold Dew
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20181222
+DTEND;VALUE=DATE:20181223
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:2mbhtl201jh79c0j9ceoicfauj@google.com
+CREATED:20181211T120600Z
+DESCRIPTION:冬至・Tōji・Winter Solstice<br><br>When days are the shortest in the whole year. Deer in the mountains shed their antlers\, and wheat sprouts rest underneath the snow.<br><br><a href="https://smallseasons.guide" id="ow1372" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113450Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Start of the Winter Solstice
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190321
+DTEND;VALUE=DATE:20190322
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:2stqco5ento61r7nvg60ra8246@google.com
+CREATED:20181211T121600Z
+DESCRIPTION:春分・Shunbun・Vernal Equinox<br><br>When winter is gone and spring starts. Sparrows begin to nest in the trees. Cherry blossoms start to bloom. Heavy rains bring distant thunder.<br><br><a href="https://smallseasons.guide" id="ow2846" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113705Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Start of the Vernal Equinox
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190723
+DTEND;VALUE=DATE:20190724
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:4u95kqqbbgthv4k533vp2pbh1t@google.com
+CREATED:20181211T122439Z
+DESCRIPTION:大暑・Taisho・Big Heat<br><br>Summer heat is at its strongest. The air is thick and humid and the trees are busy making seeds.<br><br><a href="https://smallseasons.guide" id="ow4405" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114018Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Big Heat
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190605
+DTEND;VALUE=DATE:20190606
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:2idlmn05keu5upnrfqsqfqn6ap@google.com
+CREATED:20181211T122148Z
+DESCRIPTION:芒種・Bōshu・Seeds and Cereals<br><br>The time of year when people start to seed the soil. Praying mantises hatch. Rotten grass become home to fireflies. The plums become more yellow.<br><br><a href="https://smallseasons.guide" id="ow3704" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113852Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Seeds and Cereals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190120
+DTEND;VALUE=DATE:20190121
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:7qd4i0ovaekg8jt3gpo5td751p@google.com
+CREATED:20181211T121000Z
+DESCRIPTION:大寒・Daikan・Big Cold<br><br>Temperatures drop low and the chill deepens. Ice thickens on the streams. Hens huddle together and begin laying eggs.<br><br><a href="https://smallseasons.guide" id="ow1737" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113520Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Big Cold
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190306
+DTEND;VALUE=DATE:20190307
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:46b18jouv2fflvk18ondpsqqta@google.com
+CREATED:20181211T121540Z
+DESCRIPTION:啓蟄・Keichitsu・Going-out of the Insects<br><br>That time of year when the first bugs surface from their hibernation. Caterpillars start their transformation to butterflies.<br><br><a href="https://smallseasons.guide" id="ow2465" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113645Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Going-out of the Insects
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190106
+DTEND;VALUE=DATE:20190107
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:20jf6e9vs9r41h67ps4565k95a@google.com
+CREATED:20181211T120808Z
+DESCRIPTION:小寒・Shōkan・Small Cold<br><br>Winter chills start as the temperature quickly drops. Pheasant calls can be heard in the forest.<br><br><a href="https://smallseasons.guide" id="ow1570" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113505Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Small Cold
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190621
+DTEND;VALUE=DATE:20190622
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:7v8gfunu7lut87lces1nsb0lqk@google.com
+CREATED:20181211T122246Z
+DESCRIPTION:夏至・Geshi・Reaching Summer<br><br>The longest days of the year. The sun reaches its highest point\, accompanied by mist and rains. A sweet woodsy dryness hangs in the air. Irises bloom and crow-dippers start to sprout.<br><br><a href="https://smallseasons.guide" id="ow4041" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113939Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Reaching Summer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191123
+DTEND;VALUE=DATE:20191124
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:7qreupf7jf6etd6upaqr3qj3s6@google.com
+CREATED:20181211T123329Z
+DESCRIPTION:小雪・Shōsetsu・Little Snow<br><br><br>Light snowfall appears. Northern winds have blown the last leaves from the trees.<br><br><a href="https://smallseasons.guide" id="ow5772" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114258Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Little Snow
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190521
+DTEND;VALUE=DATE:20190522
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:01vno9ga8qp28qlrj984omdika@google.com
+CREATED:20181211T122025Z
+DESCRIPTION:小満・Shōman・Little Blossoming<br><br>When flowers and plants start to come out. Silkworms start feasting on mulberry leaves\, and the safflower workers start their picking. Wheat begins to ripen.<br><br><a href="https://smallseasons.guide" id="ow3536" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113824Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of the Little Blossoming
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190907
+DTEND;VALUE=DATE:20190908
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:542la54ihgnvcmc1607utg75jn@google.com
+CREATED:20181211T122733Z
+DESCRIPTION:白露・Hakuro・White Dew<br><br>When drops of dew can be seen on the grass. Swallows leave for the year\, and the wagtails sing.<br><br><a href="https://smallseasons.guide" id="ow4903" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T114113Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of White Dew
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190218
+DTEND;VALUE=DATE:20190219
+RRULE:FREQ=YEARLY
+DTSTAMP:20260724T145249Z
+UID:215dqjdsvdc2sbbcptc1nau4mi@google.com
+CREATED:20181211T121235Z
+DESCRIPTION:雨水・Usui・Rain Waters<br><br>Snow melts away\, mist lingers in the air\, and grasses begin to sprout. Trees release their first buds as the ground fills with water.<br><br><a href="https://smallseasons.guide" id="ow2096" __is_owner="true">smallseasons.guide</a>
+LAST-MODIFIED:20181213T113550Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Start of Usui
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

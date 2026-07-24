@@ -12,6 +12,10 @@
 		<data>
 		76GY3X7mA47QFExUmIxMUFyQpuA=
 		</data>
+		<key>Resources/smallseasons.ics</key>
+		<data>
+		2ujjJp8IHiwd5fTwq6FiGI62374=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -27,6 +31,13 @@
 			<key>hash2</key>
 			<data>
 			W38Xaxi0qs2Y/xrztTiTya3PXVWRHeha0H1tYM2JnBM=
+			</data>
+		</dict>
+		<key>Resources/smallseasons.ics</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J5kMM10q88DRuShSwG3cUKwWSI3VV87WoVsb8VJfqvo=
 			</data>
 		</dict>
 	</dict>

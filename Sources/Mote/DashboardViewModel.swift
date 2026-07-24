@@ -8,6 +8,7 @@ final class DashboardViewModel: ObservableObject {
   @Published private(set) var nowPlaying: NowPlaying = .empty
   @Published private(set) var weatherDays: [WeatherDay] = []
   @Published private(set) var calendarEvents: [CalendarEventItem] = []
+  @Published private(set) var smallSeasonText: String?
 
   @Published private(set) var musicState: ProviderState = .idle
   @Published private(set) var weatherState: ProviderState = .idle
@@ -21,6 +22,7 @@ final class DashboardViewModel: ObservableObject {
   private let musicService: MusicService
   private let weatherService: WeatherService
   private let calendarService: CalendarService
+  private let smallSeasonsService: SmallSeasonsService
   private var refreshTask: Task<Void, Never>?
   private var playlistChangeTask: Task<Void, Never>?
 
@@ -28,12 +30,14 @@ final class DashboardViewModel: ObservableObject {
     settings: AppSettings,
     musicService: MusicService,
     weatherService: WeatherService,
-    calendarService: CalendarService
+    calendarService: CalendarService,
+    smallSeasonsService: SmallSeasonsService
   ) {
     self.settings = settings
     self.musicService = musicService
     self.weatherService = weatherService
     self.calendarService = calendarService
+    self.smallSeasonsService = smallSeasonsService
     selectedPlaylist = settings.playlistName
   }
 
@@ -58,6 +62,7 @@ final class DashboardViewModel: ObservableObject {
       lastUpdated = Date()
     }
 
+    smallSeasonText = smallSeasonsService.season(on: Date())?.text
     loadMusic()
 
     weatherState = .loading

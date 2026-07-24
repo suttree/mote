@@ -12,6 +12,12 @@ struct DashboardView: View {
     in: .common
   ).autoconnect()
 
+  private let dataRefreshTimer = Timer.publish(
+    every: 30 * 60,
+    on: .main,
+    in: .common
+  ).autoconnect()
+
   var body: some View {
     ZStack {
       MotePalette.canvas(for: colorScheme)
@@ -37,12 +43,15 @@ struct DashboardView: View {
       }
       .scrollIndicators(.never)
     }
-    .frame(width: 380, height: 600)
+    .frame(width: 380, height: 620)
     .onAppear {
       viewModel.startLoadingIfNeeded()
     }
     .onReceive(nowPlayingTimer) { _ in
       viewModel.refreshNowPlaying()
+    }
+    .onReceive(dataRefreshTimer) { _ in
+      Task { await viewModel.refreshAll() }
     }
   }
 
@@ -95,9 +104,10 @@ struct DashboardView: View {
   }
 
   private var lastUpdatedText: String {
+    let context = viewModel.smallSeasonText ?? "Next three days"
     guard let date = viewModel.lastUpdated else {
-      return "Next three days"
+      return context
     }
-    return "Next three days · updated \(date.formatted(date: .omitted, time: .shortened))"
+    return "\(context) · updated \(date.formatted(date: .omitted, time: .shortened))"
   }
 }
